@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "tmc_cat_map_mod",
+  "version": "${version}",
+
+  "name": "TMC Cat Map Mod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/tmc_cat_map_mod/icon.png",
+
+  "environment": "client",
+  "entrypoints": {},
+
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.themodcraft.tmc_catacombs_map_mod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "CatacombsMapMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
